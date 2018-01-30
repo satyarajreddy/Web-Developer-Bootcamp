@@ -1,0 +1,21 @@
+h1 
+{
+	color: red;
+}
+
+h2
+{
+	color: blue;
+}
+
+li
+{
+	color: red;
+}
+
+*
+{
+	background: blue;
+	background-size: cover;
+	border: 4px solid yellow;
+}

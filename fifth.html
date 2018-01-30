@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> First form</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="app.css">
+<h2> Register </h2>
+<form>
+	<div>
+	<label  class="first" for="fname"> First Name: </label>
+
+	<input id="fname" type="text" name="First Name" required >
+	<label for="lname"> Last Name: </label>
+	<input id="lname" type="text" name="Last Name" required >
+</div>
+
+<div>
+	<label  class = "first" for="male"> Male</label>
+	<input id="male" type="radio" name ="Gender" value="Male">
+	<label for="female"> Female </label>
+	<input id="female" type="radio" name ="Gender" value="Female">
+	<label for="other"> Other </label>
+	<input id="other" type="radio" name ="Gender" value="Other">
+    
+
+</div>
+<div>
+	<label for="Email" > Email:</label>
+	<input type="email" id="Email" name="Email" required >
+	<label for="Password" > Password: </label>
+	<input type="password" id="Password" name="password" pattern=".{5,10}" required title="It should be between 5-10" >
+</div>
+
+<div>
+	<label> Birthday</label>
+	<select name="Month">
+		<option>Month</option>
+		<option>Feb </option>
+		<option>March </option>
+		<option>April </option>
+	</select>
+
+	<select name="Day">
+		<option> Day</option>
+		<option> 2</option>
+		<option> 3</option>
+	</select>
+
+	<select name="Year">
+		<option> Year</option>
+		<option> 1995</option>
+		<option> 1994</option>
+	</select>
+
+
+
+</div>
+<div>
+	<label for="cb" > I agree to the terms and conditions </label>
+	<input  id="cb" type="checkbox" name="agr" >
+</div>
+
+<button>Submit</button>
+
+</form>
+
+
+</body>
+</html>
